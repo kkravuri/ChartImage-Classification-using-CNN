@@ -29,7 +29,7 @@ We will use a conservative configuration for the stochastic gradient descent opt
 ### Step :7 Compile, fit and Evaluate Model
 Once the model has been created, it is time to compile it and fit the model. During the process of fitting, the model will go through the dataset and understand the relations. It will learn throughout the process as many times as has been defined. In our example, we have defined different epochs. During the process, the CNN model will learn and make mistakes. For every mistake (i.e., wrong predictions) the model makes, there is a penalty and that is represented in the loss value for each epoch. In short, the model should generate as little loss and as high accuracy as possible at the end of the last epoch.
 
- 
+ ![image](https://user-images.githubusercontent.com/69726245/235207247-cd57ec7c-dbaa-4fe8-91d5-fa37b818a4f2.png)
 
 I have implemented 4 different models to increase the accuracy. From the above image we can clearly see that model 4 is giving higher accuracy compared to the other models.
 ### Step 8: Plot the change in accuracy and loss per epochs¶
